@@ -17,6 +17,7 @@ import Mail from './Components/Mail';
 import UserGuide from './Components/UserGuide';
 import AdminDashboard from './Components/AdminDashboard';
 import CompanyDashboard from './Components/CompanyDashboard';
+
 import './Components/Change.css';
 import './Components/Interface.css';
 import dashboardIcon from './assets/dashboard.png';
@@ -119,7 +120,7 @@ function AppLayout() {
   };
 
   const handleWhatsAppClick = () => {
-    window.open('https://crmwhatsapp-1.onrender.com/api/whatsapp/qr', '_blank');
+    window.open('https://crmwhatsapp-1.onrender.com/', '_blank');
   };
   
   return (
@@ -215,6 +216,7 @@ function AppLayout() {
               <Interface navigate={navigate} />
             </ProtectedRoute>
           } />
+         
 
           <Route path="/calendar" element={
             <ProtectedRoute>
