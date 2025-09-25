@@ -1,6 +1,8 @@
 import axios from 'axios';
 
 const API_BASE_URL = 'https://crmbackendreal1.onrender.com/api';
+const WHATSAPP_BOT_URL = 'https://crmwhatsapp-1.onrender.com';
+
 const api = axios.create({
   baseURL: API_BASE_URL,
   headers: {
@@ -180,6 +182,12 @@ export const adminAPI = {
   resendMessage: (messageId, data) => api.post(`/admin/messages/${messageId}/resend`, data),
   deleteMessage: (messageId) => api.delete(`/admin/messages/${messageId}`),
   sendMessage: (data) => api.post('/admin/messages', data),
+};
+
+// WhatsApp Bot API
+export const whatsappAPI = {
+  getQRCode: () => axios.get(`${WHATSAPP_BOT_URL}/api/whatsapp/qr`),
+  getHealth: () => axios.get(`${WHATSAPP_BOT_URL}/health`),
 };
 
 // Company Dashboard APIs
