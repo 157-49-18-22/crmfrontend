@@ -119,7 +119,7 @@ function AppLayout() {
   };
 
   const handleWhatsAppClick = () => {
-    window.open('http://localhost:3000/', '_blank');
+    window.open('https://crmwhatsapp-1.onrender.com/api/whatsapp/qr', '_blank');
   };
   
   return (
