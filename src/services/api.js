@@ -184,12 +184,6 @@ export const adminAPI = {
   sendMessage: (data) => api.post('/admin/messages', data),
 };
 
-// WhatsApp Bot API
-export const whatsappAPI = {
-  getQRCode: () => axios.get(`${WHATSAPP_BOT_URL}/api/whatsapp/qr`),
-  getHealth: () => axios.get(`${WHATSAPP_BOT_URL}/health`),
-};
-
 // Company Dashboard APIs
 export const companyAPI = {
   // Get company statistics
@@ -253,4 +247,5 @@ export const companyAPI = {
     api.delete('/admin/linkedin/disconnect'),
 };
 
-export default api; 
+export default api;
+export { WHATSAPP_BOT_URL }; 
