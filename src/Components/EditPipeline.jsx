@@ -506,7 +506,7 @@ export default function EditPipeline({ onClose, pipelines, selectedPipelineIndex
             <div className="editpipeline-section">
               <div className="editpipeline-section-title">Incoming leads stage</div>
               <input className="editpipeline-input" value="Incoming leads stage" disabled />
-              <div className="editpipeline-section-desc">This stage automatically captures leads from all the sources and channels you've connected to Maydiv</div>
+              <div className="editpipeline-section-desc">This stage automatically captures leads from all the sources and channels you've connected to Bricks</div>
             </div>
             <div className="editpipeline-section">
               <div className="editpipeline-section-title">Active stages</div>
