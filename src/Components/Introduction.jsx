@@ -39,7 +39,7 @@ const Introduction = () => {
           <div className="nav-content">
             <div className="nav-logo">
               <div className="logo-icon"></div>
-              <span className="logo-text">MAYDIV CRM</span>
+              <span className="logo-text">Bricks CRM</span>
             </div>
             <div className="nav-links">
               <a href="#home" className="nav-link">Home</a>
@@ -57,7 +57,7 @@ const Introduction = () => {
         {/* Hero Content */}
         <div className="hero-content">
           <h1 className="hero-title">
-            Deliver Seamlessly Elegant Service with MayDiv CRM
+            Deliver Seamlessly Elegant Service with Bricks CRM
           </h1>
           <p className="hero-subtitle">
             Empower your team with a modern CRM that simplifies workflows, strengthens customer relationships, and scales effortlessly with your business.
@@ -71,7 +71,7 @@ const Introduction = () => {
           <div className="dashboard-previews">
             <img 
               src={dashboardImage} 
-              alt="Maydiv CRM Dashboard Preview" 
+              alt="Bricks CRM Dashboard Preview" 
               className="dashboard-image"
             />
           </div>
@@ -111,7 +111,7 @@ const Introduction = () => {
           <div className="drives-text">
             <h2 className="drives-title">What Drives Us</h2>
             <p className="drives-description">
-              Maydiv CRM is your intelligent customer management platform designed to make business simple and effective. With AI-powered automation, real-time insights, and a user-friendly dashboard, Maydiv helps you streamline sales, track customer interactions, and close deals faster.
+              Bricks CRM is your intelligent customer management platform designed to make business simple and effective. With AI-powered automation, real-time insights, and a user-friendly dashboard, Bricks helps you streamline sales, track customer interactions, and close deals faster.
             </p>
           </div>
           <div className="drives-image">
@@ -384,7 +384,7 @@ const Introduction = () => {
                 <span className="star">★</span>
               </div>
               <p className="testimonial-text">
-                "MayDiv CRM has transformed our sales process. The automation features save us hours every day, and the insights help us make better decisions. Highly recommended!"
+                "Bricks CRM has transformed our sales process. The automation features save us hours every day, and the insights help us make better decisions. Highly recommended!"
               </p>
               <div className="testimonial-author">
                 <div className="author-avatar">
@@ -438,7 +438,7 @@ const Introduction = () => {
                 <span className="star">★</span>
               </div>
               <p className="testimonial-text">
-                "The AI-powered analytics have given us incredible insights into our customer behavior. Our conversion rates have improved by 40% since implementing MayDiv CRM."
+                "The AI-powered analytics have given us incredible insights into our customer behavior. Our conversion rates have improved by 40% since implementing Bricks CRM."
               </p>
               <div className="testimonial-author">
                 <div className="author-avatar">
@@ -479,7 +479,7 @@ const Introduction = () => {
         <div className="footer-content">
           <div className="footer-main">
             <div className="footer-social">
-              <h3 className="footer-title">MayDiv CRM</h3>
+              <h3 className="footer-title">Bricks CRM</h3>
               <p className="footer-description">
                 Empowering businesses with intelligent customer management solutions.
               </p>
@@ -537,7 +537,7 @@ const Introduction = () => {
 
           <div className="footer-bottom">
             <p className="footer-copyright">
-              All rights reserved @Maydiv Crm
+              All rights reserved @Bricks Crm
             </p>
           </div>
         </div>
