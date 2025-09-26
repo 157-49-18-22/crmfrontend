@@ -128,7 +128,7 @@ function AppLayout() {
       {!isNoSidebar && (
         <aside className="crm-sidebar">
           <div className="crm-logo">
-            MAYDIV CRM
+            BRICKS CRM
           </div>
           
           <div className="crm-search-container">
